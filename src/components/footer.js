@@ -7,57 +7,62 @@ import twitterIcon from '../assets/Twitter.svg';
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col mt-4">
-       <div className="flex flex-col md:flex-row justify-between gap-8">
-         <div className="flex flex-col items-start gap-4">
-            <img src={rnnFooterLogo} alt="React Native Nigeria"/>
-            <p className="text-[20px] text-white">+1 (7635) 547-12-97</p>
-            <p className="text-white text-base">support@reactnative.ng</p>
+    <footer className="mt-16 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[51px] py-8 sm:py-12 w-full">
+       <div className=" max-w-7xl mx-auto flex flex-col lg:flex-row justify-between gap-8 lg:gap-12 xl:gap-16">
+         <div className="flex flex-col items-start gap-3 sm:gap-4">
+            <img src={rnnFooterLogo} alt="React Native Nigeria" className="h-8 sm:h-10 md:h-12"/>
+            <p className="text-lg sm:text-xl text-white">+1 (7635) 547-12-97</p>
+            <p className="text-white text-sm sm:text-base">support@reactnative.ng</p>
         </div>
 
-        <div className="flex flex-col gap-4 text-white max-w-md">
-            <p className="text-[18px] font-semibold">Quick Links</p>
+        <div className="flex flex-col gap-3 sm:gap-4 text-white">
+            <p className="text-base sm:text-lg font-semibold">Quick Links</p>
             
-            <div className="flex flex-row justify-between gap-8 text-[#D4D4D4] text-base">
-                <div className="flex flex-col gap-4">
-                    <a className="cursor-pointer" href="terms" target="_blank" rel="noopener noreferrer">Terms and Agreement</a>
-                    <a className="cursor-pointer" href="donate" target="_blank" rel="noopener noreferrer">Donate</a>
-                </div>
-                <div className="flex flex-col gap-4">
-                    <a className="cursor-pointer" href="company" target="_blank" rel="noopener noreferrer">Company</a>  
-                    <a className="cursor-pointer" href="reactnative" target="_blank" rel="noopener noreferrer">React Native</a>
-                </div>
+            <div className="grid grid-cols-2 gap-x-6 sm:gap-x-8 md:gap-x-12 gap-y-3 sm:gap-y-4 text-[#D4D4D4] text-sm sm:text-base">
+                <a className="cursor-pointer hover:text-white transition-colors" href="terms" target="_blank" rel="noopener noreferrer">Terms and Agreement</a>
+                <a className="cursor-pointer hover:text-white transition-colors" href="company" target="_blank" rel="noopener noreferrer">Company</a>  
+                <a className="cursor-pointer hover:text-white transition-colors" href="donate" target="_blank" rel="noopener noreferrer">Donate</a>
+                <a className="cursor-pointer hover:text-white transition-colors" href="reactnative" target="_blank" rel="noopener noreferrer">React Native</a>
             </div>
         </div>
 
-
-        <div className="flex flex-col gap-4">
-            <p className="text-[18px] text-white">Subscribe</p>
-            <div className="flex flex-row justify-between rounded-md overflow-hidden w-full max-w-md ">
-                <input type="email" placeholder="Stay Updated" className="bg-white py-3 px-2 w-full sm:w-auto"/>
-                <img src={arrowIcon} alt="Arrow" className="bg-[#04B4FC] p-4 cursor-pointer"/>
+        <div className="flex flex-col gap-3 sm:gap-4">
+            <p className="text-base sm:text-lg text-white">Subscribe</p>
+            <div className="flex flex-row rounded-md overflow-hidden w-full max-w-xs sm:max-w-sm md:max-w-md">
+                <input 
+                  type="email" 
+                  placeholder="Stay Updated" 
+                  className="bg-white py-2 sm:py-3 px-2 sm:px-3 flex-1 text-sm sm:text-base focus:outline-none"
+                />
+                <button className="bg-[#04B4FC] p-2 sm:p-3 md:p-4 cursor-pointer hover:bg-blue-500 transition-colors">
+                  <img src={arrowIcon} alt="Arrow" className="h-4 w-4 sm:h-5 sm:w-5"/>
+                </button>
             </div>
         </div>
        </div>
 
-        <div className="border-t border-gray-500 my-8"></div>
+        <div className="border-t border-gray-600 my-6 sm:my-8"></div>
 
-        <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-center">
-            <div className="flex flex-row items-center gap-3">
-                <a className="cursor-pointer" href="https://www.linkedin.com/company/react-native-nigeria-community/" target="_blank" rel="noopener noreferrer"><img src={linkedinIcon} alt="Linkedin"/></a>
-                <a className="cursor-pointer" href="facebook.com"><img src={facebookIcon} alt="Facebook" target="_blank" rel="noopener noreferrer"/></a>
-                <a className="cursor-pointer"  href="https://x.com/ReactNativeNG" target="_blank" rel="noopener noreferrer"><img src={twitterIcon} alt="Twitter"/></a>
+        <div className="flex flex-col lg:flex-row justify-between items-center gap-4 sm:gap-6 text-center lg:text-left">
+            <div className="flex flex-row items-center gap-3 sm:gap-4">
+                <a className="cursor-pointer hover:opacity-80 transition-opacity" href="https://www.linkedin.com/company/react-native-nigeria-community/" target="_blank" rel="noopener noreferrer">
+                  <img src={linkedinIcon} alt="Linkedin" className="h-6 w-6 sm:h-7 sm:w-7"/>
+                </a>
+                <a className="cursor-pointer hover:opacity-80 transition-opacity" href="facebook.com" target="_blank" rel="noopener noreferrer">
+                  <img src={facebookIcon} alt="Facebook" className="h-6 w-6 sm:h-7 sm:w-7"/>
+                </a>
+                <a className="cursor-pointer hover:opacity-80 transition-opacity" href="https://x.com/ReactNativeNG" target="_blank" rel="noopener noreferrer">
+                  <img src={twitterIcon} alt="Twitter" className="h-6 w-6 sm:h-7 sm:w-7"/>
+                </a>
             </div>
 
-            <div className="flex flex-row items-center gap-2">
-                <p className="text-base text-white">A product of</p>
-                <img src={rnnFooterLogo} alt="RNN"/>
+            <div className="flex flex-row items-center gap-2 order-last lg:order-none">
+                <p className="text-sm sm:text-base text-white">A product of</p>
+                <img src={rnnFooterLogo} alt="RNN" className="h-5 sm:h-6"/>
             </div>
 
-            <p className="text-base text-white">© 2025 React Native Nigeria. All rights reserved.</p>
+            <p className="text-sm sm:text-base text-white">© 2025 React Native Nigeria. All rights reserved.</p>
         </div>
-
-
     </footer>
   )
 }
