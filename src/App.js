@@ -16,7 +16,7 @@ const App = () => {
         <Hero/>
       </BackgroundImage>
 
-      <div className=" w-full bg-[#272829] px-12 py-8">
+      <div className=" w-full bg-[#272829] py-8">
         <WelcomeSection/>
         <JoinUs/>
         <Team/>
@@ -26,7 +26,7 @@ const App = () => {
         <Contact/>
       </div>
 
-      <div className=" w-full bg-[#272829] px-12 py-8">
+      <div className=" w-full bg-[#272829] py-8">
         <Footer/>
       </div>
     </div>
