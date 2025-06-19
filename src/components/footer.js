@@ -2,7 +2,6 @@ import React from 'react'
 import rnnFooterLogo from '../assets/rnnFooterLogo.svg';
 import arrowIcon from '../assets/arrowIcon.svg';
 import linkedinIcon from '../assets/Linkedin.svg';
-import facebookIcon from '../assets/facebook.svg';
 import twitterIcon from '../assets/Twitter.svg';
 
 const Footer = () => {
