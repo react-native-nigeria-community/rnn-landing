@@ -48,9 +48,7 @@ const Footer = () => {
                 <a className="cursor-pointer hover:opacity-80 transition-opacity" href="https://www.linkedin.com/company/react-native-nigeria-community/" target="_blank" rel="noopener noreferrer">
                   <img src={linkedinIcon} alt="Linkedin" className="h-6 w-6 sm:h-7 sm:w-7"/>
                 </a>
-                <a className="cursor-pointer hover:opacity-80 transition-opacity" href="facebook.com" target="_blank" rel="noopener noreferrer">
-                  <img src={facebookIcon} alt="Facebook" className="h-6 w-6 sm:h-7 sm:w-7"/>
-                </a>
+            
                 <a className="cursor-pointer hover:opacity-80 transition-opacity" href="https://x.com/ReactNativeNG" target="_blank" rel="noopener noreferrer">
                   <img src={twitterIcon} alt="Twitter" className="h-6 w-6 sm:h-7 sm:w-7"/>
                 </a>
