@@ -41,7 +41,7 @@ const Team = () => {
                 <img 
                   src={team2} 
                   alt="Team Member" 
-                  className="w-full max-h-screen rounded-lg"
+                  className="w-full h-[90] rounded-lg"
                 />
             </div>
             <div className="w-full sm:w-1/3">
