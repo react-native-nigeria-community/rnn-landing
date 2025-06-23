@@ -20,9 +20,9 @@ const Footer = () => {
             
             <div className="grid grid-cols-2 gap-x-6 sm:gap-x-8 md:gap-x-12 gap-y-3 sm:gap-y-4 text-[#D4D4D4] text-sm sm:text-base">
                 <a className="cursor-pointer hover:text-white transition-colors" href="terms" target="_blank" rel="noopener noreferrer">Terms and Agreement</a>
-                <a className="cursor-pointer hover:text-white transition-colors" href="company" target="_blank" rel="noopener noreferrer">Company</a>  
-                <a className="cursor-pointer hover:text-white transition-colors" href="donate" target="_blank" rel="noopener noreferrer">Donate</a>
-                <a className="cursor-pointer hover:text-white transition-colors" href="reactnative" target="_blank" rel="noopener noreferrer">React Native</a>
+                <a className="cursor-pointer hover:text-white transition-colors" href="company" target="_blank" rel="noopener noreferrer">Gallery</a>  
+                <a className="cursor-pointer hover:text-white transition-colors" href="donate" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                <a className="cursor-pointer hover:text-white transition-colors" href="reactnative" target="_blank" rel="noopener noreferrer">Donate</a>
             </div>
         </div>
 
