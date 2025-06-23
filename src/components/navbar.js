@@ -31,7 +31,7 @@ const Navbar = () => {
            className="text-black text-sm lg:text-base">
           Join us
         </a>
-        <img src={rnnLogo} alt="Join Us" className="w-5 h-5 lg:w-6 lg:h-6" />
+        
       </div>
 
       <div className="lg:hidden">
@@ -67,7 +67,6 @@ const Navbar = () => {
                className="text-black text-sm sm:text-base">
               Join us
             </a>
-            <img src={rnnLogo} alt="Join Us" className="w-5 h-5 sm:w-6 sm:h-6" />
           </div>
         </div>
       )}
