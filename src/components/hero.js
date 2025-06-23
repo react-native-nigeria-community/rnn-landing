@@ -43,7 +43,6 @@ const Hero = () => {
                  className="text-black text-base sm:text-lg lg:text-xl font-medium">
                 Join us
               </a>
-              <img src={rnnLogo} alt="Join Us" className="w-5 h-5 sm:w-6 sm:h-6"/>
             </div>
           </div>
         </div>

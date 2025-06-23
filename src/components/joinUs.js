@@ -41,7 +41,6 @@ const JoinUs = () => {
                     <a href="https://github.com/react-native-nigeria-community" target="_blank" rel="noopener noreferrer" className="text-black text-base md:text-lg lg:text-xl font-medium">
                         Join us
                     </a>
-                    <img src={rnnLogo} alt="RNN Logo" className="w-6 h-6 md:w-8 md:h-8"/>
                 </button>
             </div>
         </div>
@@ -63,7 +62,6 @@ const JoinUs = () => {
                     <a href="https://join.slack.com/t/reactnativenigeria/shared_invite/zt-c8od4rkl-xUOp01GMiKOt_7_mFvyOzA" target="_blank" rel="noopener noreferrer" className="text-black text-base md:text-lg lg:text-xl font-medium">
                         Join us
                     </a>
-                    <img src={rnnLogo} alt="RNN Logo" className="w-6 h-6 md:w-8 md:h-8"/>
                 </button>
             </div>
 
@@ -92,7 +90,6 @@ const JoinUs = () => {
                     <a href="joinUs" target="_blank" rel="noopener noreferrer" className="text-black text-base md:text-lg lg:text-xl font-medium">
                         Join us
                     </a>
-                    <img src={rnnLogo} alt="RNN Logo" className="w-6 h-6 md:w-8 md:h-8"/>
                 </button>
             </div>
         </div>
@@ -114,7 +111,6 @@ const JoinUs = () => {
                     <a href="joinUs" target="_blank" rel="noopener noreferrer" className="text-black text-base md:text-lg lg:text-xl font-medium">
                         Keep in the Loop
                     </a>
-                    <img src={rnnLogo} alt="RNN Logo" className="w-6 h-6 md:w-8 md:h-8"/>
                 </button>
             </div>
 
