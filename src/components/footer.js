@@ -2,7 +2,6 @@ import React from 'react'
 import rnnFooterLogo from '../assets/rnnFooterLogo.svg';
 import arrowIcon from '../assets/arrowIcon.svg';
 import linkedinIcon from '../assets/Linkedin.svg';
-import facebookIcon from '../assets/facebook.svg';
 import twitterIcon from '../assets/Twitter.svg';
 
 const Footer = () => {
@@ -11,18 +10,18 @@ const Footer = () => {
        <div className=" max-w-7xl mx-auto flex flex-col lg:flex-row justify-between gap-8 lg:gap-12 xl:gap-16">
          <div className="flex flex-col items-start gap-3 sm:gap-4">
             <img src={rnnFooterLogo} alt="React Native Nigeria" className="h-8 sm:h-10 md:h-12"/>
-            <p className="text-lg sm:text-xl text-white">+1 (7635) 547-12-97</p>
             <p className="text-white text-sm sm:text-base">support@reactnative.ng</p>
         </div>
 
         <div className="flex flex-col gap-3 sm:gap-4 text-white">
             <p className="text-base sm:text-lg font-semibold">Quick Links</p>
             
-            <div className="grid grid-cols-2 gap-x-6 sm:gap-x-8 md:gap-x-12 gap-y-3 sm:gap-y-4 text-[#D4D4D4] text-sm sm:text-base">
+            <div className="flex flex-col gap-x-6 sm:gap-x-8 md:gap-x-12 gap-y-3 sm:gap-y-4 text-[#D4D4D4] text-sm sm:text-base">
                 <a className="cursor-pointer hover:text-white transition-colors" href="terms" target="_blank" rel="noopener noreferrer">Terms and Agreement</a>
-                <a className="cursor-pointer hover:text-white transition-colors" href="company" target="_blank" rel="noopener noreferrer">Gallery</a>  
-                <a className="cursor-pointer hover:text-white transition-colors" href="donate" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
-                <a className="cursor-pointer hover:text-white transition-colors" href="reactnative" target="_blank" rel="noopener noreferrer">Donate</a>
+                <a className="cursor-pointer hover:text-white transition-colors" href="gallery" target="_blank" rel="noopener noreferrer">Gallery</a>
+                <a className="cursor-pointer hover:text-white transition-colors" href="privacyPolicy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                <a className="cursor-pointer hover:text-white transition-colors" href="donate" target="_blank" rel="noopener noreferrer">Donate</a>
+
             </div>
         </div>
 
@@ -48,9 +47,7 @@ const Footer = () => {
                 <a className="cursor-pointer hover:opacity-80 transition-opacity" href="https://www.linkedin.com/company/react-native-nigeria-community/" target="_blank" rel="noopener noreferrer">
                   <img src={linkedinIcon} alt="Linkedin" className="h-6 w-6 sm:h-7 sm:w-7"/>
                 </a>
-                <a className="cursor-pointer hover:opacity-80 transition-opacity" href="facebook.com" target="_blank" rel="noopener noreferrer">
-                  <img src={facebookIcon} alt="Facebook" className="h-6 w-6 sm:h-7 sm:w-7"/>
-                </a>
+            
                 <a className="cursor-pointer hover:opacity-80 transition-opacity" href="https://x.com/ReactNativeNG" target="_blank" rel="noopener noreferrer">
                   <img src={twitterIcon} alt="Twitter" className="h-6 w-6 sm:h-7 sm:w-7"/>
                 </a>
