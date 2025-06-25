@@ -1,18 +1,19 @@
 import React, { useState } from 'react';
 import rnnLogo from '../assets/rnnLogo.svg';
 import hamburgerIcon from '../assets/menuIcon.svg'; 
-import closeIcon from '../assets/closeIcon.svg';         
+import closeIcon from '../assets/closeIcon.svg';  
+import en from '../config/language/en';       
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = (
     <>
-      <li><a href="whoWeAre" className="hover:text-[#5FDBFC] transition-colors">Who We Are</a></li>
-      <li><a href="events" className="hover:text-[#5FDBFC] transition-colors">Events</a></li>
-      <li><a href="programs" className="hover:text-[#5FDBFC] transition-colors">Our Programs</a></li>
-      <li><a href="getInvolved" className="hover:text-[#5FDBFC] transition-colors">Get Involved</a></li>
-      <li><a href="donate" className="hover:text-[#5FDBFC] transition-colors">Donate</a></li>
+      <li><a href="whoWeAre" className="hover:text-[#5FDBFC] transition-colors">{en.NAVBAR.whoWeAre}</a></li>
+      <li><a href="events" className="hover:text-[#5FDBFC] transition-colors">{en.NAVBAR.events}</a></li>
+      <li><a href="programs" className="hover:text-[#5FDBFC] transition-colors">{en.NAVBAR.programs}</a></li>
+      <li><a href="getInvolved" className="hover:text-[#5FDBFC] transition-colors">{en.NAVBAR.getInvolved}</a></li>
+      <li><a href="donate" className="hover:text-[#5FDBFC] transition-colors">{en.NAVBAR.donate}</a></li>
     </>
   );
 
@@ -29,7 +30,7 @@ const Navbar = () => {
            target="_blank" 
            rel="noopener noreferrer" 
            className="text-black text-sm lg:text-base">
-          Join us
+          {en.NAVBAR.button}
         </a>
         
       </div>
@@ -65,7 +66,7 @@ const Navbar = () => {
                target="_blank" 
                rel="noopener noreferrer" 
                className="text-black text-sm sm:text-base">
-              Join us
+              {en.NAVBAR.button}
             </a>
           </div>
         </div>
