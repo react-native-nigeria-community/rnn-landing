@@ -11,7 +11,6 @@ const Footer = () => {
        <div className=" max-w-7xl mx-auto flex flex-col lg:flex-row justify-between gap-8 lg:gap-12 xl:gap-16">
          <div className="flex flex-col items-start gap-3 sm:gap-4">
             <img src={rnnFooterLogo} alt="React Native Nigeria" className="h-8 sm:h-10 md:h-12"/>
-            <p className="text-lg sm:text-xl text-white">+1 (7635) 547-12-97</p>
             <p className="text-white text-sm sm:text-base">support@reactnative.ng</p>
         </div>
 
