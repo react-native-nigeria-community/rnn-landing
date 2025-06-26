@@ -6,20 +6,38 @@ import welcomeImage4 from '../assets/welcomeImg4.png';
 
 const WelcomeSection = () => {
   return (
-    <section className="px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 2xl:px-20 py-8 md:py-12 lg:py-16 flex flex-col justify-between gap-12 md:gap-16 lg:gap-20">
-        <div className="flex flex-col items-start gap-4 md:gap-6 text-left max-w-4xl">
-            <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-normal leading-tight">
-                New Here? Welcome to React Native Nigeria!
-            </h1>
-            <p className="text-white text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed">
-                React Native Nigeria is a vibrant community of developers passionate about 
-                building cross-platform mobile apps using React Native. Our mission is to foster 
-                learning, collaboration, and innovation by providing a space for developers to 
-                connect, share knowledge, and grow together.
-            </p>
-        </div>
+   <>
+   
+   
+   
+   
+   <section className=' ml-10 text-white leading-relaxed tracking-wide mb-20'> 
+    <div>
+        <p className='text-5xl '> 
+            New Here? Welcome to React Native Nigeria!
+        </p>
+            <p  className='mt-5 text-xl font-[300]  tracking-wider'>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 justify-items-center">
+                React Native Nigeria is a vibrant community of developers passionate about <br/>  
+                 building cross-platform mobile apps using React Native. Our mission is to foster <br/>
+                 learning, collaboration, and innovation by providing a space for developers to<br/>
+                  connect, share knowledge, and grow together.
+            </p>
+    </div>
+<div>
+
+
+
+
+    
+</div>
+
+  </section>
+  
+   
+   
+
+     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 justify-items-center">
             <div className="flex flex-col gap-4 w-full max-w-[280px] sm:max-w-[250px] lg:max-w-[240px] xl:max-w-[250px]">
                 <div className="w-full aspect-[4/5] overflow-hidden rounded-lg">
                     <img 
@@ -132,8 +150,12 @@ const WelcomeSection = () => {
                 </div>
             </div>
         </div>
-    </section>
+   
+   
+   </>
   )
 }
 
 export default WelcomeSection;
+
+
