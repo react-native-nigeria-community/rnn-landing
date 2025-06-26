@@ -36,29 +36,18 @@ const Team = () => {
       </section>
         </div>
 
-        <div className="flex flex-col sm:flex-row justify-center gap-4 md:gap-6 px-22 mr-5 lg:gap-8">
-            <div className="w-full sm:w-1/3">
-                <img 
-                  src={team2} 
-                  alt="Team Member" 
-                  className="w-full h-[90] rounded-lg"
-                />
-            </div>
-            <div className="w-full sm:w-1/3">
-                <img 
-                  src={team3} 
-                  alt="Team Member" 
-                  className="w-full max-h-screen rounded-lg"
-                />
-            </div>
-            <div className="w-full sm:w-1/3">
-                <img 
-                  src={team4} 
-                  alt="Team Member" 
-                  className="w-full max-h-screen rounded-lg"
-                />
-            </div>
-        </div>
+        
+<div className="flex flex-col sm:flex-row justify-center gap-4 md:gap-6 px-4 lg:gap-8">
+  {[team2, team3, team4].map((image, index) => (
+    <div key={index} className="w-full sm:w-1/3">
+      <img
+        src={image}
+        alt={`Team Member ${index + 1}`}
+        className="w-full h-[400px] object-cover rounded-lg"
+      />
+    </div>
+  ))}
+</div>
     </section>
   )
 }
