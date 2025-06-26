@@ -11,7 +11,7 @@ const WelcomeSection = () => {
    
    
    
-   <section className=' ml-10 text-white leading-relaxed tracking-wide mb-20'> 
+   <section className=' ml-10 text-white leading-relaxed tracking-wide mb-10'> 
     <div>
         <p className='text-5xl '> 
             New Here? Welcome to React Native Nigeria!
@@ -151,6 +151,11 @@ const WelcomeSection = () => {
             </div>
         </div>
    
+   
+
+
+
+
    
    </>
   )
