@@ -1,7 +1,7 @@
 import React from 'react'
 import heroAvatar1 from '../assets/tt.png';
-import heroAvatar2 from '../assets/aas.png';
-import heroAvatar3 from '../assets/ffg.png';
+import heroAvatar2 from '../assets/rnnTeam3.png';
+
 import rnnLogo from '../assets/rnnLogo.svg';
 
 const Hero = () => {
@@ -11,10 +11,9 @@ const Hero = () => {
       <div className="flex flex-col justify-between gap-3 sm:gap-4 lg:gap-6">
         
         <div className="flex flex-row gap-1 sm:gap-2">
-          <img src={heroAvatar1} alt="Hero Avatar" className="w-10 h-10 sm:w-12 sm:h-12 lg:w-auto lg:h-auto rounded-full object-cover"/>
-          <img src={heroAvatar2} alt="Hero Avatar" className="w-10 h-10 sm:w-12 sm:h-12 lg:w-auto lg:h-auto rounded-full object-cover"/>
-          <img src={heroAvatar3} alt="Hero Avatar" className="w-10 h-10 sm:w-12 sm:h-12 lg:w-auto lg:h-auto rounded-full object-cover"/>
-        </div>
+          <img src={heroAvatar1} alt="Hero Avatar" className=" h-10 sm:w-12 sm:h-12 lg:w-auto lg:h-auto rounded-full object-cover"/>
+          <img src={heroAvatar2} alt="Hero Avatar" className="w-15 h-15 rounded-full   "/>
+         </div>
         
         
         <p className="text-white text-base sm:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-[30px] max-w-2xl">
