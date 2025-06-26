@@ -17,8 +17,8 @@ const Hero = () => {
         
         
         <p className="text-white font-[300] sm:text-lg lg:text-xl leading- sm:leading-7 lg:leading-[30px] ">
-          Connect, learn, and grow with <span className="text-[#67D8F7]">React Native 
-          developers</span><br/> through events, talks, and collaboration.
+          Connect, learn, and grow with <span className="text-[#67D8F7]">React Native <br/>
+          developers</span> through events, talks, and collaboration.
         </p>
       </div>
 
