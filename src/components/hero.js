@@ -23,7 +23,7 @@ const Hero = () => {
       </div>
 
      
-      <div className="flex flex-col gap-4 sm:gap-6 w-full mt-50">
+      <div className="flex flex-col gap-4 sm:gap-6 w-full mt-15">
         <div className="w-full">
           <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[50px] leading-tight sm:leading-tight md:leading-tight lg:leading-[75px] mb-2 sm:mb-4">
             Join a Passionate Community <br className="hidden sm:block"/> 
