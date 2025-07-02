@@ -1,30 +1,29 @@
-import React from 'react'
+
 import heroAvatar1 from '../assets/tt.png';
-import heroAvatar2 from '../assets/aas.png';
-import heroAvatar3 from '../assets/ffg.png';
+import heroAvatar2 from '../assets/rnnTeam3.png';
+
 import rnnLogo from '../assets/rnnLogo.svg';
 
 const Hero = () => {
   return (
     <section className="px-4 sm:px-8 md:px-12 lg:px-[51px] pt-12 sm:pt-16 lg:pt-24 pb-8 sm:pb-12 lg:pb-16 flex flex-col justify-between items-start gap-8 sm:gap-10 lg:gap-12">
       
-      <div className="flex flex-col justify-between gap-3 sm:gap-4 lg:gap-6">
+      <div className="flex flex-col justify-between gap-2 sm:gap-4 lg:gap-6">
         
-        <div className="flex flex-row gap-1 sm:gap-2">
-          <img src={heroAvatar1} alt="Hero Avatar" className="w-10 h-10 sm:w-12 sm:h-12 lg:w-auto lg:h-auto rounded-full object-cover"/>
-          <img src={heroAvatar2} alt="Hero Avatar" className="w-10 h-10 sm:w-12 sm:h-12 lg:w-auto lg:h-auto rounded-full object-cover"/>
-          <img src={heroAvatar3} alt="Hero Avatar" className="w-10 h-10 sm:w-12 sm:h-12 lg:w-auto lg:h-auto rounded-full object-cover"/>
-        </div>
+        <div className="flex flex-row gap-1 sm:gap-2  mt-20">
+          <img src={heroAvatar1} alt="Hero Avatar" className=" h-10 sm:w-12 sm:h-12 lg:w-auto lg:h-auto rounded-full object-cover"/>
+          <img src={heroAvatar2} alt="Hero Avatar" className="w-15 h-15 rounded-full   "/>
+         </div>
         
         
-        <p className="text-white text-base sm:text-lg lg:text-xl leading-6 sm:leading-7 lg:leading-[30px] max-w-2xl">
-          Connect, learn, and grow with <span className="text-[#67D8F7]">React Native 
+        <p className="text-white font-[300] sm:text-lg lg:text-xl leading- sm:leading-7 lg:leading-[30px] ">
+          Connect, learn, and grow with <span className="text-[#67D8F7]">React Native <br/>
           developers</span> through events, talks, and collaboration.
         </p>
       </div>
 
      
-      <div className="flex flex-col gap-4 sm:gap-6 w-full">
+      <div className="flex flex-col gap-4 sm:gap-6 w-full mt-15">
         <div className="w-full">
           <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[50px] leading-tight sm:leading-tight md:leading-tight lg:leading-[75px] mb-2 sm:mb-4">
             Join a Passionate Community <br className="hidden sm:block"/> 

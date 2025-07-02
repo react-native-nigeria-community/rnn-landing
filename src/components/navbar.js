@@ -1,26 +1,26 @@
 import React, { useState } from 'react';
-import rnnLogo from '../assets/rnnLogo.svg';
-import hamburgerIcon from '../assets/menuIcon.svg'; 
-import closeIcon from '../assets/closeIcon.svg';         
+ import rnnLogo from '../assets/rnnLogo.svg';
+ import hamburgerIcon from '../assets/menuIcon.svg'; 
+ import closeIcon from '../assets/closeIcon.svg';         
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = (
     <>
-      <li><a href="whoWeAre" className="hover:text-[#5FDBFC] transition-colors">Who We Are</a></li>
-      <li><a href="events" className="hover:text-[#5FDBFC] transition-colors">Events</a></li>
-      <li><a href="programs" className="hover:text-[#5FDBFC] transition-colors">Our Programs</a></li>
-      <li><a href="getInvolved" className="hover:text-[#5FDBFC] transition-colors">Get Involved</a></li>
-      <li><a href="donate" className="hover:text-[#5FDBFC] transition-colors">Donate</a></li>
+      <li><a href="whoWeAre" className="hover:text-[#5FDBFC] hover:font-bold transition-colors">Who We Are</a></li>
+      <li><a href="events" className="hover:text-[#5FDBFC] hover:font-bold transition-colors">Events</a></li>
+      <li><a href="programs" className="hover:text-[#5FDBFC] hover:font-bold transition-colors">Our Programs</a></li>
+      <li><a href="getInvolved" className="hover:text-[#5FDBFC] hover:font-bold transition-colors">Get Involved</a></li>
+      <li><a href="donate" className="hover:text-[#5FDBFC] hover:font-bold transition-colors">Donate</a></li>
     </>
   );
 
   return (
     <nav className="px-4 sm:px-8 md:px-12 lg:px-[51px] py-4 sm:py-6 lg:py-8 flex justify-between items-center bg-transparent text-white relative">
-      <img src={rnnLogo} alt="React Native Nigeria" className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 cursor-pointer" />
+      <img src={rnnLogo} alt="React Native Nigeria" className=" sm:w-10 sm:h-10 lg:w-12 lg:h-12 cursor-pointer" />
 
-      <ul className="hidden lg:flex gap-6 xl:gap-8 text-sm lg:text-base xl:text-lg items-center">
+      <ul className="hidden font-[300]  lg:flex gap-6 xl:gap-8 text-sm lg:text-base xl:text-lg mr-100">
         {navLinks}
       </ul>
 
