@@ -23,10 +23,10 @@ const JoinUs = () => {
 
 
    
-    <div className="space-y-16 mt-20 left-20  ml-20">
+    <div className="space-y-16 mt-20 left-20  ml-30">
   
       <div className="flex flex-col lg:flex-row items-center gap-4 text-white">
-        <img src={githubImage} className="w-[35%] rounded-lg object-cover mr-10" alt="" />
+        <img src={githubImage} className="w-[35%] rounded-lg object-cover mr-15" alt="" />
         <div className="w-1/2 text-left">
           <img src={githubLogo} className="w-12" alt="" />
           <h2 className="text-3xl font-bold mt-4">Why Join Our GitHub <br/>Organization?</h2>
@@ -51,12 +51,12 @@ const JoinUs = () => {
             <img src={rnnLogo} className="w-5" alt="" />
           </button>
         </div>
-        <img src={slackImage} className="w-[35%] rounded-lg object-cover mr-10" alt="" />
+        <img src={slackImage} className="w-[35%] rounded-lg object-cover ml-10" alt="" />
       </div>
 
 
       <div className="flex flex-col lg:flex-row items-center gap-4 text-white">
-        <img src={whatsappImage} className="w-[35%] rounded-lg object-cover mr-10" alt="" />
+        <img src={whatsappImage} className="w-[35%] rounded-lg object-cover mr-15" alt="" />
         <div className="w-1/2 text-left">
           <img src={whatsappLogo} className="w-12" alt="" />
           <h2 className="text-2xl font-bold mt-4">Why Join Our WhatsApp<br/> Community?</h2>
