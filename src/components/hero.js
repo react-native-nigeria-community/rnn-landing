@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="flex flex-col justify-between gap-2 sm:gap-4 lg:gap-6">
         
         <div className="flex flex-row gap-1 sm:gap-2  mt-20">
-          <img src={heroAvatar1} alt="Hero Avatar" className=" h-10 sm:w-12 sm:h-12 lg:w-auto lg:h-auto rounded-full object-cover"/>
+          <img src={heroAvatar1} alt="Hero Avatar" className="w-15 h-15 rounded-full"/>
           <img src={heroAvatar2} alt="Hero Avatar" className="w-15 h-15 rounded-full   "/>
          </div>
         
@@ -33,17 +33,18 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6 md:gap-8 lg:gap-12 xl:gap-20">
             <span className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[50px] leading-tight lg:leading-[75px]">
               Nigeria!
-            </span>
-            
-            <div className="inline-flex bg-white py-2 sm:py-3 px-4 sm:px-5 items-center gap-2 rounded-lg cursor-pointer hover:bg-[#DADADA] w-fit transition-colors">
+              <div className="ml-5 inline-flex bg-white py-2 sm:py-3 px-4 sm:px-5 items-center gap-2 rounded-lg cursor-pointer hover:bg-[#DADADA] w-fit transition-colors">
               <a href="https://join.slack.com/t/reactnativenigeria/shared_invite/zt-c8od4rkl-xUOp01GMiKOt_7_mFvyOzA" 
                  target="_blank" 
                  rel="noopener noreferrer" 
-                 className="text-black text-base sm:text-lg lg:text-xl font-medium">
+                 className="text-black text-base sm:text-lg lg:text-xl font-medium sm:">
                 Join us
               </a>
               <img src={rnnLogo} alt="Join Us" className="w-5 h-5 sm:w-6 sm:h-6"/>
             </div>
+            </span>
+            
+          
           </div>
         </div>
       </div>
