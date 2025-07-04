@@ -3,10 +3,12 @@ import rnnFooterLogo from '../assets/rnnFooterLogo.svg';
 import arrowIcon from '../assets/arrowIcon.svg';
 import linkedinIcon from '../assets/Linkedin.svg';
 import twitterIcon from '../assets/Twitter.svg';
+import groupBackground from '../assets/Group.svg';
+import slack from '../assets/slack.svg';
 
 const Footer = () => {
   return (
-    <footer className="mt-16 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[51px] py-8 sm:py-12 w-full">
+    <footer className="relative mt-16 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-[51px] py-8 sm:py-12 w-full">
        <div className=" max-w-7xl mx-auto flex flex-col lg:flex-row justify-between gap-8 lg:gap-12 xl:gap-16">
          <div className="flex flex-col items-start gap-3 sm:gap-4">
             <img src={rnnFooterLogo} alt="React Native Nigeria" className="h-8 sm:h-10 md:h-12"/>
@@ -21,7 +23,6 @@ const Footer = () => {
                 <a className="cursor-pointer hover:text-white transition-colors" href="gallery" target="_blank" rel="noopener noreferrer">Gallery</a>
                 <a className="cursor-pointer hover:text-white transition-colors" href="privacyPolicy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
                 <a className="cursor-pointer hover:text-white transition-colors" href="donate" target="_blank" rel="noopener noreferrer">Donate</a>
-
             </div>
         </div>
 
@@ -51,6 +52,9 @@ const Footer = () => {
                 <a className="cursor-pointer hover:opacity-80 transition-opacity" href="https://x.com/ReactNativeNG" target="_blank" rel="noopener noreferrer">
                   <img src={twitterIcon} alt="Twitter" className="h-6 w-6 sm:h-7 sm:w-7"/>
                 </a>
+                <a className="cursor-pointer hover:opacity-80 transition-opacity" href="https://slack.com" target="_blank" rel="noopener noreferrer">
+                  <img src={slack} alt="slack" className="h-6 w-6 sm:h-7 sm:w-7"/>
+                </a>
             </div>
 
             <div className="flex flex-row items-center gap-2 order-last lg:order-none">
@@ -60,6 +64,13 @@ const Footer = () => {
 
             <p className="text-sm sm:text-base text-white">© 2025 React Native Nigeria. All rights reserved.</p>
         </div>
+         <img
+           src={groupBackground}
+           alt=""
+           className="pointer-events-none absolute top-[-10px] left-[900px] w-[450px] h-[400px] opacity-70"
+           aria-hidden="true"
+/>
+
     </footer>
   )
 }
