@@ -4,6 +4,7 @@ import arrowIcon from '../assets/arrowIcon.svg';
 import linkedinIcon from '../assets/Linkedin.svg';
 import twitterIcon from '../assets/Twitter.svg';
 import groupBackground from '../assets/Group.svg';
+import slack from '../assets/slack.svg';
 
 const Footer = () => {
   return (
@@ -50,6 +51,9 @@ const Footer = () => {
             
                 <a className="cursor-pointer hover:opacity-80 transition-opacity" href="https://x.com/ReactNativeNG" target="_blank" rel="noopener noreferrer">
                   <img src={twitterIcon} alt="Twitter" className="h-6 w-6 sm:h-7 sm:w-7"/>
+                </a>
+                <a className="cursor-pointer hover:opacity-80 transition-opacity" href="https://slack.com" target="_blank" rel="noopener noreferrer">
+                  <img src={slack} alt="slack" className="h-6 w-6 sm:h-7 sm:w-7"/>
                 </a>
             </div>
 
