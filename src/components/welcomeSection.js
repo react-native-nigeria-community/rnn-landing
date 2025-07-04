@@ -13,14 +13,14 @@ const WelcomeSection = () => {
    
    <section className=' ml-10 text-white leading-relaxed tracking-wide mb-10'> 
     <div>
-        <p className='text-5xl '> 
-            New Here? Welcome to React Native Nigeria!
+        <p className='xl:text-5xl lg:text-5xl md:text-4xl text-xl'> 
+            New Here? <span className="lg:hidden  "><br /></span> <span className='md:ml-24 lg:ml-0'>Welcome to React Native Nigeria!</span>
         </p>
-            <p  className='mt-5 text-xl font-[300]  tracking-wider'>
+            <p  className='px-2 md:text-center text-center lg:text-left text-xs mt-5 lg:text-xl font-[300] md:text-base lg:tracking-wider md:font-base '>
 
-                React Native Nigeria is a vibrant community of developers passionate about <br/>  
-                 building cross-platform mobile apps using React Native. Our mission is to foster <br/>
-                 learning, collaboration, and innovation by providing a space for developers to<br/>
+                React Native Nigeria is a vibrant community of developers passionate about   <span className="hidden sm:inline "><br /></span>
+                 building cross-platform mobile apps using React Native. Our mission is to foster   <span className="hidden sm:inline "><br /></span>
+                 learning, collaboration, and innovation by providing a space for developers to  <span className="hidden sm:inline "><br /></span>
                   connect, share knowledge, and grow together.
             </p>
     </div>
@@ -37,7 +37,7 @@ const WelcomeSection = () => {
    
    
 
-     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 justify-items-center">
+     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 justify-items-center px-6">
             <div className="flex flex-col gap-4 w-full max-w-[280px] sm:max-w-[250px] lg:max-w-[240px] xl:max-w-[250px]">
                 <div className="w-full aspect-[4/5] overflow-hidden rounded-lg">
                     <img 
