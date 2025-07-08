@@ -15,10 +15,10 @@ const JoinUs = () => {
    < > 
 
     <section className='text-white flex flex-col gap-4   mt-20'>
-    <p className='xl:text-5xl lg:text-4xl md:text-4xl text-xl flex justify-center'>
+    <p className='xl:text-5xl lg:text-4xl md:text-4xl text-lg flex justify-center'>
         Stay Connected with React Native Nigeria!
     </p>
-    <p className='flex justify-center tracking-wider xl:text-xl lg:text-base md:text-[0.83rem] text-[0.44rem] lg:text-base text-[#FFFFFFBF]'>Join us across multiple platforms to learn, collaborate, and stay updated with the React Native community.</p>
+    <p className='flex justify-center tracking-wider xl:text-xl  md:text-[0.83rem] text-[0.44rem] lg:text-base text-[#FFFFFFBF]'>Join us across multiple platforms to learn, collaborate, and stay updated with the React Native community.</p>
 </section>
 
 
