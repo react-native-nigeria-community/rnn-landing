@@ -35,8 +35,6 @@ const Team = () => {
         </div>
       </section>
         </div>
-
-        
 <div className="flex flex-col sm:flex-row justify-center gap-4 md:gap-6 px-4 lg:gap-8">
   <div className=" ml-20 w-full sm:w-1/3">
     <img
@@ -45,7 +43,6 @@ const Team = () => {
       className="w-full h-[400px] object-cover rounded-lg"
     />
   </div>
-  
   <div className="w-full sm:w-1/3">
     <img
       src={team3}
