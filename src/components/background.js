@@ -1,4 +1,4 @@
-import React, { Children } from 'react';
+import React from 'react';
 import  backgroundImage from '../assets/rnnBgImg.png';
 
 const BackgroundImage = ({children}) => {

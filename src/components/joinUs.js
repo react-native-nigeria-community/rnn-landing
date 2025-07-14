@@ -1,5 +1,4 @@
 import React from 'react'
-import rnnLogo from '../assets/rnnLogo.svg';
 import githubImage from '../assets/whyUsImg.png';
 import githubLogo from '../assets/rnnGithubIcon.svg';
 import slackImage from '../assets/slackImage.png';

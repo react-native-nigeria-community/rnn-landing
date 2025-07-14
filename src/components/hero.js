@@ -2,8 +2,6 @@
 import heroAvatar1 from '../assets/tt.png';
 import heroAvatar2 from '../assets/rnnTeam3.png';
 
-import rnnLogo from '../assets/rnnLogo.svg';
-
 const Hero = () => {
   return (
     <section className="px-4 sm:px-8 md:px-12 lg:px-[51px] pt-12 sm:pt-16 lg:pt-24 pb-8 sm:pb-12 lg:pb-16 flex flex-col justify-between items-start gap-8 sm:gap-10 lg:gap-12">
