@@ -1,5 +1,4 @@
 import React from "react";
-import rnnLogo from "../assets/rnnLogo.svg";
 import githubImage from "../assets/whyUsImg.png";
 import githubLogo from "../assets/rnnGithubIcon.svg";
 import slackImage from "../assets/slackImage.png";
@@ -73,11 +72,6 @@ const JoinUs = () => {
               >
                 Join us
               </a>
-              <img
-                src={rnnLogo}
-                alt="GitHub Logo"
-                className="w-[29px] h-[29px]"
-              />
             </button>
           </div>
         </div>
@@ -109,18 +103,13 @@ const JoinUs = () => {
 
             <button className="inline-flex bg-white py-3 px-6 md:px-8 justify-center items-center gap-3 rounded-lg hover:bg-[#DADADA] transition-colors duration-200 cursor-pointer">
               <a
-                href="https://join.slack.com/t/reactnativenigeria/shared_invite/zt-c8od4rkl-xUOp01GMiKOt_7_mFvyOzA"
+                href="https://join.slack.com/t/reactnativenigeria/shared_invite/zt-394qjcr8n-PLNYl2pKoM1RveBaX10WZA"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-black text-base md:text-lg lg:text-xl font-medium"
               >
                 Join us
               </a>
-              <img
-                src={rnnLogo}
-                alt="GitHub Logo"
-                className="w-[29px] h-[29px]"
-              />
             </button>
           </div>
 
@@ -175,11 +164,6 @@ const JoinUs = () => {
               >
                 Join us
               </a>
-              <img
-                src={rnnLogo}
-                alt="GitHub Logo"
-                className="w-[29px] h-[29px]"
-              />
             </button>
           </div>
         </div>
@@ -211,18 +195,13 @@ const JoinUs = () => {
 
             <button className="inline-flex bg-white py-3 px-6 md:px-8 justify-center items-center gap-3 rounded-lg hover:bg-[#DADADA] transition-colors duration-200 cursor-pointer">
               <a
-                href="joinUs"
+                href="https://youtube.com/@reactnativenigeria?si=MpAlb003p6qlELi8"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-black text-base md:text-lg lg:text-xl font-medium"
               >
                 Keep in the Loop
               </a>
-              <img
-                src={rnnLogo}
-                alt="GitHub Logo"
-                className="w-[29px] h-[29px]"
-              />
             </button>
           </div>
 
