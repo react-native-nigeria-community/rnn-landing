@@ -1,12 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
 
-body {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: #5FDBFC;
+  --color-dark: #272829;
+  --color-lightCyan: #04B4FC
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-dark);
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
 
+html.dark body {
+  @apply bg-dark;
+}

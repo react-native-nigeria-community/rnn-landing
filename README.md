@@ -1,120 +1,12 @@
-Welcome to the official repository for the **React Native Nigeria Community** website. This platform serves as a hub for React Native developers, enthusiasts, and learners across Nigeria and Rwanda to connect, collaborate, and grow.
+# React + Vite
 
----
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 📌 Table of Contents
+Currently, two official plugins are available:
 
-* [About the Project](#about-the-project)
-* [Tech Stack](#tech-stack)
-* [Getting Started](#getting-started)
-* [Available Scripts](#available-scripts)
-* [Contributing](#contributing)
-* [Community](#community)
-* [License](#license)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
+## Expanding the ESLint configuration
 
-## 🧠 About the Project
-
-This project exists to:
-
-* Showcase the React Native Nigeria community
-* Share community updates, events, and resources
-* Create a space for collaboration and visibility
-
-It is open source and built by the community for the community.
-
----
-
-## 🚀 Tech Stack
-
-* [React](https://reactjs.org/)
-* [React Router](https://reactrouter.com/)
-* [TailwindCSS](https://tailwindcss.com/) 
-* [Node.js](https://nodejs.org/)
-* Deployed with [Vercel](https://vercel.com/) 
-
----
-
-## 🛠 Getting Started
-
-### Prerequisites
-
-Make sure you have the following installed:
-
-* **Node.js** (v14 or newer)
-* **npm**
-
-### Installation
-
-Clone the repo and install dependencies:
-
-```bash
-git clone https://github.com/react-native-nigeria-community/rnn-landing.git
-cd rnn-landing
-npm install
-```
-
-Start the development server:
-
-```bash
-npm start
-```
-
-Open your browser at [http://localhost:3000](http://localhost:3000)
-
----
-
-## 📂 Available Scripts
-
-### `npm start`
-
-Runs the app in development mode.
-Open [http://localhost:3000](http://localhost:3000)
-
-### `npm test`
-
-Launches the test runner in watch mode
-
-### `npm run build`
-
-Builds the app for production
-
-### `npm run eject`
-
-Removes CRA configuration. This action is irreversible
-
----
-
-## 🤝 Contributing
-
-We welcome contributions from everyone. Here’s how to get started:
-
-1. Fork this repo
-2. Create a new branch: `git checkout -b feature/my-feature`
-3. Commit your changes: `git commit -m 'feat: add my feature'`
-4. Push to your branch: `git push origin feature/my-feature`
-5. Open a Pull Request
-
-
----
-
-## 🌍 Community
-
-Join the conversation and stay updated:
-
-* 💬 [Slack Community](https://join.slack.com/t/reactnativenigeria/shared_invite/zt-c8od4rkl-xUOp01GMiKOt_7_mFvyOzA)
-* 🧑‍💻 [GitHub Repository](https://github.com/react-native-nigeria-community/rnn-landing)
-
-Let’s build something amazing together.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
