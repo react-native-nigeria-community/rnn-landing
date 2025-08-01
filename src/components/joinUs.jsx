@@ -39,7 +39,7 @@ const JoinUs = () => {
             <div className="flex flex-col gap-4 items-center lg:items-start">
               <img src={githubLogo} alt="GitHub Logo" className="w-12 h-12 md:w-16 md:h-16" />
               <h2 className="text-white text-3xl sm:text-4xl font-semibold">
-                Why Join Our GitHub Organization?
+                 Join Our GitHub Organization
               </h2>
             </div>
             <p className="text-sm sm:text-base md:text-lg text-white">
@@ -64,7 +64,7 @@ const JoinUs = () => {
             <div className="flex flex-col gap-4 items-center lg:items-start">
               <img src={slackLogo} alt="Slack Logo" className="w-12 h-12 md:w-16 md:h-16" />
               <h2 className="text-white text-3xl sm:text-4xl font-semibold">
-                Why Join Our Slack Community?
+                Join Our Slack Community
               </h2>
             </div>
             <p className="text-sm sm:text-base md:text-lg text-white">
@@ -94,7 +94,7 @@ const JoinUs = () => {
             <div className="flex flex-col gap-4 items-center lg:items-start">
               <img src={whatsappLogo} alt="WhatsApp Logo" className="w-12 h-12 md:w-16 md:h-16" />
               <h2 className="text-white text-3xl sm:text-4xl font-semibold">
-                Why Join Our WhatsApp Community?
+                  Join Our WhatsApp Community
               </h2>
             </div>
             <p className="text-sm sm:text-base md:text-lg text-white">
