@@ -1,32 +1,15 @@
 import React from "react";
-import BackgroundImage from "./components/background";
-import Navbar from "./components/navbar";
-import Hero from "./components/hero";
-import WelcomeSection from "./components/welcomeSection";
-import JoinUs from "./components/joinUs";
-import Team from "./components/rnnTeam";
-import Contact from "./components/contact";
-import Footer from "./components/footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./Home"; 
 
 const App = () => {
   return (
-    <div>
-      <BackgroundImage>
-        <Navbar />
-        <Hero />
-      </BackgroundImage>
-
-      <div className="">
-        <WelcomeSection />
-        <JoinUs />
-        <Team />
-      </div>
-
-      <div className="">
-        <Contact />
-        <Footer />
-      </div>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} /> 
+        
+      </Routes>
+    </Router>
   );
 };
 
