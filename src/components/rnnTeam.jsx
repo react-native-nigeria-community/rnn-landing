@@ -4,6 +4,24 @@ import team2 from "../assets/rnnTeam2.jpeg";
 import team3 from "../assets/rnnTeam3.png";
 import team4 from "../assets/rnnTeam4.png";
 
+const teamMembers = [
+  {
+    img: team3,
+    name: "Mishael Akinyemi",
+    role: "Co-founder & Organizer",
+  },
+  {
+    img: team2,
+    name: "Okikioluwa Shokunbi",
+    role: "Event Managers",
+  },
+  {
+    img: team4,
+    name: "Edmund Ekott",
+    role: "Media & Communication Lead",
+  },
+];
+
 const Team = () => {
   return (
     <section className="py-10 px-4 sm:px-[70px] text-white flex flex-col gap-20">
@@ -22,46 +40,50 @@ const Team = () => {
           </p>
 
           <button 
-          className="w-full inline-flex justify-center items-center  whitespace-nowrap lg:w-[70%] px-30 py-3 rounded-md text-white  text-500 bg-[#00B4D8] hover:bg-white hover:text-black transition duration-300 ease-in">
-            <a href="https://photos.google.com/share/AF1QipPc49tLOW3EZO1RMO8awcVCBIBz92OMZIiHhSCtQKhlLP5-ro4m3vYbsdezylP0yg?key=cE5LeVNNelh0dEJNNHIxRU1mWDhWMG1wd0FsUkJn">
-              {" "}
-              View All Team{" "}
+            className="w-full inline-flex justify-center items-center whitespace-nowrap lg:w-[70%] px-8 py-3 rounded-md text-white bg-[#00B4D8] hover:bg-white hover:text-black transition duration-300 ease-in"
+          >
+            <a
+              href="https://photos.google.com/share/AF1QipPc49tLOW3EZO1RMO8awcVCBIBz92OMZIiHhSCtQKhlLP5-ro4m3vYbsdezylP0yg?key=cE5LeVNNelh0dEJNNHIxRU1mWDhWMG1wd0FsUkJn"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full"
+            >
+              View All Team
             </a>
           </button>
         </div>
 
-         <div className="w-full lg:w-[40%]">
+        <div className="w-full lg:w-[40%]">
           <img
             src={team1}
+            alt="Core React Native Nigeria Team"
             className="w-full h-auto rounded-lg"
-            alt=""
           />
+          <div className="mt-2 text-center">
+            <p className="font-semibold text-lg">Oluwatobi Shokunbi</p>
+            <p className="text-sm text-gray-300">Founder & Lead Organizer</p>
+          </div>
         </div>
       </div>
 
       <div className="flex flex-col sm:flex-row justify-center gap-4 md:gap-6 lg:gap-8">
-        <div className="w-full sm:w-1/3">
-          <img
-            src={team2}
-            alt="Team Member"
-            className="w-full max-h-screen rounded-lg"
-          />
-        </div>
-        <div className="w-full sm:w-1/3">
-          <img
-            src={team3}
-            alt="Team Member"
-            className="w-full max-h-screen rounded-lg"
-          />
-        </div>
-        <div className="w-full sm:w-1/3">
-          <img
-            src={team4}
-            alt="Team Member"
-            className="w-full max-h-screen rounded-lg"
-          />
-        </div>
+  {teamMembers.map(({ img, name, role }, index) => (
+    <div key={index} className="w-full sm:w-1/3">
+      <div className="h-80 overflow-hidden rounded-lg"> {/* fixed height container */}
+        <img
+          src={img}
+          alt={`${name} - ${role}`}
+          className="w-full h-full object-cover rounded-lg"
+        />
       </div>
+      <div className="mt-2 text-center">
+        <p className="font-semibold">{name}</p>
+        <p className="text-sm text-gray-300">{role}</p>
+      </div>
+    </div>
+  ))}
+</div>
+
     </section>
   );
 };
