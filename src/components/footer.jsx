@@ -144,10 +144,7 @@ const Footer = () => {
           </a>
         </div>
 
-        <div className="flex flex-row items-center gap-2 order-last lg:order-none">
-          <p className="text-sm sm:text-base text-white">A product of</p>
-          <img src={rnnFooterLogo} alt="React Native Nigeria" className="h-5 sm:h-6" />
-        </div>
+      
 
         <p className="text-sm sm:text-base text-white">
           © 2025 React Native Nigeria. All rights reserved.
