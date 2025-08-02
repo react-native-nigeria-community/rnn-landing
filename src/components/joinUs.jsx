@@ -3,8 +3,8 @@ import githubImage from "../assets/whyUsImg.png";
 import githubLogo from "../assets/rnnGithubIcon.svg";
 import slackImage from "../assets/slackImage.png";
 import slackLogo from "../assets/rnnSlackIcon.svg";
-import whatsappImage from "../assets/whyUsImg.png";
-import whatsappLogo from "../assets/rnnWhatsappIcon.svg";
+import mediumImage from "../assets/whyUsImg.png"; // reuse or replace
+import mediumLogo from "../assets/medium.svg"; // make sure this asset exists
 import youtubeLogo from "../assets/rnnYoutubeIcon.svg";
 import groupBackground from "../assets/Group_3.svg";
 
@@ -85,29 +85,29 @@ const JoinUs = () => {
           </div>
         </div>
 
-        {/* WhatsApp Section */}
+        {/* Medium Section */}
         <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-10 lg:gap-[80px]">
           <div className="w-full lg:w-[40%]">
-            <img src={whatsappImage} alt="WhatsApp" className="w-full h-auto rounded-lg" />
+            <img src={mediumImage} alt="Medium" className="w-full h-auto rounded-lg" />
           </div>
           <div className="flex flex-col gap-6 w-full lg:w-1/2 lg:mr-[117px] max-w-xl text-center lg:text-left">
             <div className="flex flex-col gap-4 items-center lg:items-start">
-              <img src={whatsappLogo} alt="WhatsApp Logo" className="w-12 h-12 md:w-16 md:h-16" />
+              <img src={mediumLogo} alt="Medium Logo" className="w-12 h-12 md:w-16 md:h-16" />
               <h2 className="text-white text-3xl sm:text-4xl font-semibold">
-                  Join Our WhatsApp Community
+                  Read Us on Medium
               </h2>
             </div>
             <p className="text-sm sm:text-base md:text-lg text-white">
-              Get quick updates, real-time discussions, and community support.
-              WhatsApp is perfect for fast-paced, informal collaboration among React Native devs.
+              Explore stories, tutorials, and updates from the React Native Nigeria community.
+              Our Medium blog keeps you informed and inspired to grow as a developer.
             </p>
             <a
-              href="https://chat.whatsapp.com" // Replace with your actual WhatsApp invite link
+              href="https://medium.com/react-native-nigeria"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex bg-white py-3 px-6 md:px-8 justify-center items-center gap-3 rounded-lg hover:bg-[#DADADA] transition-colors duration-200 text-black text-base md:text-lg lg:text-xl font-medium w-fit mx-auto lg:mx-0"
             >
-              Join us
+              Visit Blog
             </a>
           </div>
         </div>

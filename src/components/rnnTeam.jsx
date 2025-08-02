@@ -1,6 +1,6 @@
 import React from "react";
-import team1 from "../assets/rnnTeam1.jpg";
-import team2 from "../assets/rnnTeam2.jpeg";
+import team1 from "../assets/ay.jpg";
+import team2 from "../assets/kk.jpg";
 import team3 from "../assets/rnnTeam3.png";
 import team4 from "../assets/rnnTeam4.png";
 
@@ -13,7 +13,7 @@ const teamMembers = [
   {
     img: team2,
     name: "Okikioluwa Shokunbi",
-    role: "Event Managers",
+    role: "Event Manager",
   },
   {
     img: team4,
@@ -69,13 +69,13 @@ const Team = () => {
       <div className="flex flex-col sm:flex-row justify-center gap-4 md:gap-6 lg:gap-8">
   {teamMembers.map(({ img, name, role }, index) => (
     <div key={index} className="w-full sm:w-1/3">
-      <div className="h-80 overflow-hidden rounded-lg"> {/* fixed height container */}
-        <img
-          src={img}
-          alt={`${name} - ${role}`}
-          className="w-full h-full object-cover rounded-lg"
-        />
-      </div>
+  <div className="aspect-[3/4] overflow-hidden rounded-lg">
+  <img
+    src={img}
+    alt={`${name} - ${role}`}
+    className="w-full h-full object-cover object-top rounded-lg"
+  />
+</div>
       <div className="mt-2 text-center">
         <p className="font-semibold">{name}</p>
         <p className="text-sm text-gray-300">{role}</p>
