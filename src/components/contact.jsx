@@ -6,30 +6,23 @@ const Contact = () => {
   const onSubmit = async (event) => {
     event.preventDefault();
     const form = event.target;
-
     const formData = new FormData(form);
-    const accessKey = import.meta.env.VITE_ACCESS_KEY
-
-    formData.append("access_key", accessKey);
-    const object = Object.fromEntries(formData);
-    const json = JSON.stringify(object);
 
     toast.loading("Submitting message...");
 
     try {
-      const response = await fetch("https://api.web3forms.com/submit", {
+      const response = await fetch("https://formspree.io/f/manbklye", {
         method: "POST",
+        body: formData,
         headers: {
-          "Content-Type": "application/json",
           Accept: "application/json",
         },
-        body: json,
       });
       const res = await response.json();
       toast.dismiss();
 
-      if (res.success) {
-        toast.success( "Message sent successfully!");
+      if (res.ok) {
+        toast.success("Message sent successfully!");
         form.reset();
       } else {
         toast.error("Failed to send message. Please try again.");
@@ -68,6 +61,8 @@ const Contact = () => {
       <div className="relative flex justify-center items-center px-4 sm:px-6 lg:px-8 w-full">
         <form
           onSubmit={onSubmit}
+          // action="https://formspree.io/f/manbklye"
+          // method="POST"
           className="px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20 py-4 sm:py-6 bg-white bg-opacity-90 rounded-xl shadow-lg w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl"
         >
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[40px] font-bold mb-4 sm:mb-6 text-center">
