@@ -47,7 +47,6 @@ const Footer = () => {
               Gallery
             </a>
 
-
             <a
               className="cursor-pointer hover:text-white transition-colors duration-300"
               href="/privacyPolicy"
@@ -73,26 +72,21 @@ const Footer = () => {
             className="flex flex-row rounded-md overflow-hidden w-full max-w-xs sm:max-w-sm md:max-w-md"
             onSubmit={handleSubscribe}
           >
-            <input
-              type="email"
-              name="email"
-              placeholder="Stay Updated"
-              className="bg-white py-2 sm:py-3 px-2 sm:px-3 flex-1 text-sm sm:text-base focus:outline-none"
-              required
-              aria-label="Email address"
-            />
-            <button
-              type="submit"
-              className="bg-lightCyan p-2 sm:p-3 md:p-4 cursor-pointer hover:bg-blue-500 transition-colors duration-300"
+            <a
+              className="bg-lightCyan p-1 sm:p-1 md:p-2 flex items-center justify-center gap-2 cursor-pointer hover:bg-blue-500 transition-colors text-white duration-300 rounded-md"
               aria-label="Subscribe"
+              href="https://form.typeform.com/to/uoB6NeKf"
+              target="_blank"
+              rel="noopener noreferrer"
             >
+              Join our Newsletter
               <img
                 src={arrowIcon}
                 alt="Submit"
                 className="h-4 w-4 sm:h-5 sm:w-5"
                 aria-hidden="true"
               />
-            </button>
+            </a>
           </form>
         </div>
       </div>
@@ -136,15 +130,9 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={slack}
-              alt="Slack"
-              className="h-6 w-6 sm:h-7 sm:w-7"
-            />
+            <img src={slack} alt="Slack" className="h-6 w-6 sm:h-7 sm:w-7" />
           </a>
         </div>
-
-      
 
         <p className="text-sm sm:text-base text-white">
           © 2025 React Native Nigeria. All rights reserved.
